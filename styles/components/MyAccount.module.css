@@ -1,0 +1,245 @@
+.myAccount {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.howToPlay {
+  width: 30%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* tickets purchased */
+
+.ticketsPurchased {
+  background-color: #ce0101;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-right: 10px;
+  height: 230px;
+}
+
+.ticketsPurchased img {
+  width: 130px;
+  height: 120px;
+}
+
+.ticketsPurchased h2 {
+  font-size: 20px;
+  width: 90%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ticketsPurchased p {
+  font-size: 50px;
+}
+
+/* cross chain balances */
+.crossChainBalance {
+  background-color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px 20px;
+  height: 230px;
+  margin-right: 10px;
+}
+
+.crossChainBalance img {
+  width: 160px;
+  height: 85px;
+}
+
+.crossChainBalance h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.balances {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.balances div {
+  margin-right: 20px;
+}
+
+.polygon {
+  display: flex;
+  flex-direction: column;
+}
+
+.polygon span {
+  color: #ee71ff;
+  margin-bottom: 4px;
+}
+.polygon p {
+  font-size: 18px;
+}
+
+.filecoin {
+  display: flex;
+  flex-direction: column;
+}
+
+.filecoin span {
+  color: #90a8ff;
+  margin-bottom: 4px;
+}
+.filecoin p {
+  font-size: 18px;
+}
+
+.krabz {
+  display: flex;
+  flex-direction: column;
+}
+
+.krabz span {
+  color: #ff7373;
+  margin-bottom: 4px;
+}
+.krabz p {
+  font-size: 18px;
+}
+
+/* WINNINGS */
+.winnings {
+  background-color: #14d279;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px 20px;
+  height: 230px;
+}
+
+.winnings img {
+  width: 90px;
+  height: 85px;
+}
+
+.winnings h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.winningBalance span {
+  color: #3b3b3b;
+  font-size: 18px;
+}
+
+.winningBalance p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* BOTTOM SECTION
+ */
+
+.bottom {
+  margin-top: 50px;
+  display: flex;
+}
+
+.topUpWalletBalance {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.topUpWalletBalance h2 {
+  color: #ce0101;
+  margin-bottom: 12px;
+}
+
+.nativeAsset {
+  background-color: #d6d6d6;
+  padding: 10px 12px;
+  border-radius: 11px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.topUpWalletBalance .krabzToken {
+  background-color: #ce0101;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 11px;
+  font-size: 17px;
+}
+
+.withdrawWalletBalance {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdrawWalletBalance h2 {
+  color: #505050;
+  margin-bottom: 12px;
+}
+
+.withdrawWalletBalance .krabzToken {
+  background-color: #505050;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 11px;
+  font-size: 17px;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+.amount {
+  color: #505050;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  background-color: #d8d8d8;
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+
+.topup {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 14px 19px;
+  width: 120px;
+  border-radius: 8px;
+  margin-top: 20px;
+}

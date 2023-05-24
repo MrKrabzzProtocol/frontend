@@ -1,0 +1,53 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  height: 60px;
+  border-bottom: 0.6px solid #cacaca67;
+}
+
+.navBar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start img {
+  width: 60px;
+  margin-right: 6px;
+}
+
+.start a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.middle a {
+  margin-left: 16px;
+}
+
+.middle a:hover {
+  color: #ce0101;
+}
+
+.middle span {
+  color: #ce0101;
+  font-weight: bold;
+}
+
+.end a {
+  color: #14d279;
+}
+
+.end a:hover {
+  color: #ce0101;
+}
+
+.end p {
+  background-color: #505050;
+  color: #fff;
+  padding: 13px 14px;
+  border-radius: 22px;
+  margin-left: 16px;
+}
