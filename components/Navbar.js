@@ -15,7 +15,7 @@ export const Navbar = () => {
 
       <div className={styles.middle}>
         <a
-          href="/"
+          href="https://francis-4.gitbook.io/mr-krabz/"
           style={{ marginRight: "30px", color: "#14d279", fontWeight: "bold" }}
         >
           Documentation &gt;
